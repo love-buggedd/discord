@@ -6,6 +6,6 @@ package-lock.json
 dist/
 
 ## Secrets (bot tokens, API keys)
-**/src/config.ts
+#**/src/config.ts (repo is private and I need to be able to share w/ myself)
 .env
 .env.*
