@@ -1,0 +1,11 @@
+## NodeJS
+node_modules/
+package-lock.json
+
+## TypeScript
+dist/
+
+## Secrets (bot tokens, API keys)
+**/src/config.ts
+.env
+.env.*
