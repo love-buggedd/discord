@@ -1,11 +1,17 @@
 import { ActivityType, PresenceData, PresenceUpdateStatus } from "discord.js";
 import { ConnectOptions } from "mongoose";
 
+const token = process.env.TOKEN;
+if (!token) throw new Error("TOKEN is missing from .env");
+
+const clientSecret = process.env.SECRET;
+if (!clientSecret) throw new Error("SECRET is missing from .env");
+
 export default {
   client: {
-    token: "MTU1OTk3OTEwMzAyNzcyNDI4OA.GaHjxv.T0dMEvXw0rVHhVmvDauF_lT_8ElrCatsKpGlR0",
+    token,
     clientId: "1559979103027724288",
-    clientSecret: "1Kw21z-TJhEZw27wa8ozdz6_Of8omwqx",
+    clientSecret,
     guildId: "1256379736461017189",
     logChannelId: "1441229619792576585",
     botName: "Jeremy",
