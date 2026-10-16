@@ -29,13 +29,13 @@ export default class Mention extends Event {
             iconURL: this.client.user.displayAvatarURL(),
           })
           .desc(
-            `> ${this.client.config.description}\n\n${this.client.emoji.plus} [Invite Me To Your Server](${this.client.links.invite})\n${this.client.emoji.link} [Join My Support Server](${this.client.links.support})\n\n-# ${this.client.emoji.slash} My Prefix In This Server Is \`${prefix}\``
+            `> ${this.client.config.description}\n\n-# ${this.client.emoji.slash} My Prefix In This Server Is \`${prefix}\``
           ),
       ],
       components: [
         new ActionRowBuilder<ExtendedButtonBuilder>().addComponents(
-          this.client.button().link("Invite Me", this.client.links.invite),
-          this.client.button().link("Support Server", this.client.links.support)
+          this.client.button().link("Support Server", this.client.links.invite),
+          this.client.button().link("Creator", this.client.links.support)
         ),
       ],
     });

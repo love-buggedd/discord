@@ -9,3 +9,6 @@ dist/
 #**/src/config.ts (repo is private and I need to be able to share w/ myself)
 .env
 .env.*
+
+# Dependent Generations
+flake.lock

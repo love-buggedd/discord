@@ -25,39 +25,39 @@ export default {
       ],
       status: PresenceUpdateStatus.Idle,
     } as PresenceData,
-    development: true,
-    description: "",
+    development: false,
+    description: "An bot made by the Comp Sci Honor Society, more specifically by <@412021966996897827>. A multi-purpose simple bot used for reminders, fun, and more. Source code can be found on [GitHub](https://github.com/love-buggedd/discord).",
   },
   commands: {
-    prefix: "",
-    message_commands: false,
+    prefix: ">",
+    message_commands: true,
     application_commands: {
       chat_input: true,
     },
   },
   database: {
-    uri: "",
+    uri: process.env.MONGODB_URI ?? "",
     options: {
       retryWrites: true,
       w: "majority",
-      appName: "",
-      dbName: "",
+      appName: "school-bot",
+      dbName: "discord",
     } as ConnectOptions,
-    connect: false,
+    connect: true,
   },
   channels: {
-    announcements: "1450527872446894132",
+    announcements: "1549871698835152997",
   },
   roles: {
-    coding_club: "1560039205202301008",
+    coding_club: "1549871237394866236",
   },
   color: {
-    main: 0x00ff00,
+    main: 0xfbf236,
     error: 0xff0000,
   },
   links: {
-    invite: "https://discord.gg/xzE8z3fpu",
-    support: "<@412021966996897827>",
+    invite: "https://discord.gg/vYAWAtQNWZ",
+    support: "https://discord.com/users/412021966996897827",
   },
   webhooks: {
     cmdlogs: "",
