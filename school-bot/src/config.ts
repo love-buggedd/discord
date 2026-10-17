@@ -25,7 +25,7 @@ export default {
       ],
       status: PresenceUpdateStatus.Idle,
     } as PresenceData,
-    development: false,
+    development: true,
     description: "An bot made by the Comp Sci Honor Society, more specifically by <@412021966996897827>. A multi-purpose simple bot used for reminders, fun, and more. Source code can be found on [GitHub](https://github.com/love-buggedd/discord).",
   },
   commands: {
