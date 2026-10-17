@@ -1,0 +1,6 @@
+services:
+  school-bot:
+    build: ./school-bot
+    restart: unless-stopped
+    env_file:
+      - ./school-bot/.env
