@@ -1,9 +1,9 @@
-## NodeJS
+# Cleanup
 node_modules/
-package-lock.json
-
-## TypeScript
 dist/
+cache/
+.temp
+package-lock.json
 
 ## Secrets (bot tokens, API keys)
 #**/src/config.ts (repo is private and I need to be able to share w/ myself)
@@ -12,3 +12,5 @@ dist/
 
 # Dependent Generations
 flake.lock
+.ollama
+.ollama*

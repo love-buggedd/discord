@@ -1,6 +1,6 @@
 {
     description = "Discord Development Environment Dependencies";
-
+    
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     };
@@ -12,10 +12,14 @@
         in {
             devShells.${system}.default = pkgs.mkShell {
                 packages = with pkgs; [
+                    ollama
                     nodejs
                     docker
                     docker-compose
                 ];
+                shellHook = ''
+                    export OLLAMA_MODELS="$PWD/ivan/.ollama/models"
+                '';
             };
         };
 }

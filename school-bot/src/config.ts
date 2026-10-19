@@ -12,8 +12,8 @@ export default {
     token,
     clientId: "1559979103027724288",
     clientSecret,
-    guildId: "1256379736461017189",
-    logChannelId: "1441229619792576585",
+    guildId: "1450527871272747041",
+    logChannelId: "1459438604173443164",
     botName: "Jeremy",
     owners: ["412021966996897827"],
     presence: {
@@ -25,7 +25,7 @@ export default {
       ],
       status: PresenceUpdateStatus.Idle,
     } as PresenceData,
-    development: true,
+    development: false,
     description: "An bot made by the Comp Sci Honor Society, more specifically by <@412021966996897827>. A multi-purpose simple bot used for reminders, fun, and more. Source code can be found on [GitHub](https://github.com/love-buggedd/discord).",
   },
   commands: {
@@ -46,10 +46,10 @@ export default {
     connect: true,
   },
   channels: {
-    announcements: "1549871698835152997",
+    announcements: "1450527872446894132",
   },
   roles: {
-    coding_club: "1549871237394866236",
+    coding_club: "1560852790581137549",
   },
   color: {
     main: 0xfbf236,

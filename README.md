@@ -1,15 +1,11 @@
-# Guides
-## Push Guide
-```bash
-git add -A
-git commit -m "..."
-git push
-```
-## Folder Creation
-```bash
-mkdir folder
-cd folder
-npm init -y
-npm install ...
-```
-Adjust `.gitignore` under `discord/` according to the sensitive contents of that folder.
+# CSHS: Discord Bots
+
+---
+
+This GitHub page was started by [@love-buggedd](https://github.com/love-buggedd). It does not have any contributors yet.
+
+This page is a collection of Discord bots used by CSHS.
+
+## Documentation
+
+To check out docs, visit [the page](https://love-buggedd.github.io/discord/).
