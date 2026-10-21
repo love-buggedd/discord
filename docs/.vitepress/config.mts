@@ -16,8 +16,21 @@ export default defineConfig({
         text: 'Important',
         items: [
           { text: 'Table of Bots', link: '/table-of-bots' },
-          { text: 'Credits & Contributions', link: '/api-examples' }
-        ]
+          { text: 'Credits & Contributions', link: '/contributions' }
+        ],
+      },
+      {
+        text: 'Library',
+        items: [
+          { text: 'Overview', link: 'bots/overview' },
+          {
+            text: 'Jeremy',
+            items: [
+              { text: 'Index', link: 'bots/jeremy/main' },
+              { text: 'API', link: 'bots/jeremy/api' }
+            ],
+          },
+        ],
       }
     ],
 
