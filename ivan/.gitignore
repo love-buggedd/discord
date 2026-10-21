@@ -1,0 +1,9 @@
+# NodeJS
+node_modules
+package-lock.json
+
+# TypeScript
+dist
+
+# Project
+src/config.ts
